@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalogo giochi Casino Alpha · Wireframe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section class="page active" data-screen-label="Giochi / Catalogo per categoria">
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="./index.html"><span class="logo-mark">CA</span>Casino Alpha · Recensione<span
+            class="flag-dot"></span></a>
+        <nav class="main-nav">
+          <a href="./index.html">Recensione</a>
+          <a href="./bonus.html">Bonus</a>
+          <a href="./vip.html">Club VIP</a>
+          <a href="./giochi.html" class="active">Giochi</a>
+          <a href="./app.html">App</a>
+          <a href="./alternativi.html">Alternative</a>
+        </nav>
+        <a class="btn btn-primary" href="#">Vai al sito ufficiale</a>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="wrap">
+        <div class="hero-panel">
+          <div>
+            <div class="hero-meta">
+              <span class="badge-adm">Concessione ADM n. 00000</span>
+            </div>
+            <h1>5.000+ giochi. 100+ fornitori. Un solo catalogo.</h1>
+            <p class="lead">Slot, tavoli e live casinò analizzati per RTP, limiti di puntata e provider. Dati
+              verificati titolo per titolo sulle categorie principali.</p>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="value">3.800<em>+</em></div>
+                <div class="label">slot</div>
+              </div>
+              <div class="hero-stat">
+                <div class="value">120<em>+</em></div>
+                <div class="label">tavoli live</div>
+              </div>
+              <div class="hero-stat">
+                <div class="value">96,4<em>%</em></div>
+                <div class="label">RTP medio</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="ph">IMG · games-catalog-tiles<br>1024×1024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+
+      <section class="section" id="featured">
+        <span class="kicker">Lobby</span>
+        <h2>Giochi in evidenza e filtri</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab active" type="button">Top</button>
+          <button class="tab" type="button">Novità</button>
+          <button class="tab" type="button">Slot</button>
+          <button class="tab" type="button">Crash</button>
+          <button class="tab" type="button">Live</button>
+        </div>
+        <div class="game-grid">
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 1</div>
+              <div class="game-rtp">RTP 96,5% · Provider A</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 2</div>
+              <div class="game-rtp">RTP 97,0% · Provider B</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 3</div>
+              <div class="game-rtp">RTP 96,1% · Provider C</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 4</div>
+              <div class="game-rtp">RTP 95,8% · Provider D</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 5</div>
+              <div class="game-rtp">RTP 96,9% · Provider A</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 6</div>
+              <div class="game-rtp">RTP 96,2% · Provider E</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 7</div>
+              <div class="game-rtp">RTP 97,3% · Provider B</div>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="ph">TILE</div>
+            <div class="game-meta">
+              <div class="game-name">Titolo placeholder 8</div>
+              <div class="game-rtp">RTP 96,0% · Provider F</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="rtp">
+        <span class="kicker">Dati verificati</span>
+        <h2>Le slot con RTP più alto</h2>
+        <p>RTP dichiarato dal provider e verificato nelle schede informative di gioco. Il valore è teorico sul lungo
+          periodo e non garantisce risultati individuali.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <thead>
+              <tr>
+                <th>Slot</th>
+                <th>Provider</th>
+                <th>RTP</th>
+                <th>Volatilità</th>
+                <th>Puntata min–max</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight">
+                <td>Titolo placeholder A</td>
+                <td>Provider A</td>
+                <td class="num">98,0%</td>
+                <td class="num">Bassa</td>
+                <td class="num">€ 0,10 – € 100</td>
+              </tr>
+              <tr>
+                <td>Titolo placeholder B</td>
+                <td>Provider B</td>
+                <td class="num">97,4%</td>
+                <td class="num">Media</td>
+                <td class="num">€ 0,20 – € 200</td>
+              </tr>
+              <tr>
+                <td>Titolo placeholder C</td>
+                <td>Provider C</td>
+                <td class="num">97,1%</td>
+                <td class="num">Alta</td>
+                <td class="num">€ 0,10 – € 50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="table-games">
+        <span class="kicker">Tavoli</span>
+        <h2>Strategia sul tavolo verde (giochi da tavolo)</h2>
+        <p>Lorem ipsum dolor sit amet: roulette, blackjack e baccarat con regole e RTP per variante. La scelta della
+          variante incide più di qualsiasi strategia di puntata.</p>
+        <div class="grid-3">
+          <div class="card stat-card">
+            <div class="value blue">99,5%</div>
+            <div class="label">RTP blackjack (regole base)</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value blue">97,3%</div>
+            <div class="label">RTP roulette europea</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value blue">98,9%</div>
+            <div class="label">RTP baccarat (banco)</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="live">
+        <span class="kicker">Live casinò</span>
+        <h2>Croupier reali, 24/7 (casinò live)</h2>
+        <p>Tavoli in streaming con croupier professionisti e limiti per ogni profilo di gioco. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit.</p>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Tavoli in italiano</h3>
+            <p>Roulette e blackjack con croupier in lingua italiana, fasce orarie placeholder.</p>
+          </div>
+          <div class="card">
+            <h3>Game show</h3>
+            <p>Formati a estrazione con montepremi variabile; regole pubblicate per ciascun titolo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="providers">
+        <span class="kicker">Fornitori</span>
+        <h2>Gli studi dietro il catalogo (provider)</h2>
+        <p>Oltre 100 studi certificati. I principali per numero di titoli presenti:</p>
+        <div class="grid-4">
+          <div class="card stat-card">
+            <div class="value">320</div>
+            <div class="label">titoli · Provider A</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">280</div>
+            <div class="label">titoli · Provider B</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">240</div>
+            <div class="label">titoli · Provider C</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">190</div>
+            <div class="label">titoli · Provider D</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <span class="kicker">FAQ</span>
+        <h2>Domande sui giochi</h2>
+        <details class="faq-item" open>
+          <summary>I giochi sono certificati?</summary>
+          <p>Lorem ipsum dolor sit amet: tutti i titoli passano per i laboratori di certificazione richiesti dalla
+            concessione ADM.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso provare le slot in modalità demo?</summary>
+          <p>Consectetur adipiscing elit: sì, la maggior parte dei titoli offre la modalità di prova senza denaro
+            reale, dopo l'accesso al conto.</p>
+        </details>
+        <details class="faq-item">
+          <summary>L'RTP è uguale per tutti i casinò?</summary>
+          <p>Sed do eiusmod tempor: alcuni provider distribuiscono varianti con RTP diversi; riportiamo il valore
+            verificato su questo operatore.</p>
+        </details>
+      </section>
+
+      <div class="rg-strip">
+        <div class="ph" style="width:120px;min-height:48px">IMG · responsible-gaming-strip</div>
+        <p>Il gioco può causare dipendenza patologica. Gioca con moderazione e consulta
+          <a href="#">giocaresponsabile.it (placeholder)</a>.</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h4>Chi siamo</h4>
+            <p>Sito editoriale di affiliazione, non un operatore di gioco. Recensiamo esclusivamente operatori con
+              concessione ADM valida; i contenuti hanno scopo informativo.</p>
+            <span class="badge-adm">ADM · solo operatori concessionari</span>
+          </div>
+          <div>
+            <h4>Pagine</h4>
+            <ul>
+              <li><a href="./index.html">Recensione completa</a></li>
+              <li><a href="./bonus.html">Bonus e promozioni</a></li>
+              <li><a href="./vip.html">Club VIP</a></li>
+              <li><a href="./giochi.html">Catalogo giochi</a></li>
+              <li><a href="./app.html">Versione mobile</a></li>
+              <li><a href="./alternativi.html">Alternative</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Gioco responsabile</h4>
+            <ul>
+              <li><a href="#">giocaresponsabile.it (placeholder)</a></li>
+              <li><a href="#">Autoesclusione e limiti di deposito</a></li>
+              <li><a href="#">Contatta la redazione</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-disclosure">
+          <p>Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica. Questo sito confronta
+            esclusivamente operatori con concessione ADM. Informativa sul gioco responsabile:
+            <a href="#">giocaresponsabile.it (placeholder)</a>. Contenuto informativo ai sensi del Decreto Dignità.</p>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+</body>
+
+</html>
